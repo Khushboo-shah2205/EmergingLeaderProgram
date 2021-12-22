@@ -1,0 +1,924 @@
+<div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap);
+
+        * {
+            padding: 0;
+            margin: 0
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            padding: 0;
+            margin: 0
+        }
+
+        main {
+            display: block;
+            clear: both
+        }
+
+
+
+
+
+        .headerbanner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap
+        }
+
+        .headerbanner h1 {
+            color: #001e60;
+            font-size: 34px;
+            font-weight: 700;
+            padding-bottom: 2px
+        }
+
+        .headerbanner hr {
+            width: 280px;
+            height: 4px;
+            text-decoration: none;
+            background-color: #f2a900;
+            border: 0
+        }
+.FIRSTSECTION {
+      width: 100%;
+      padding-bottom: 10px;
+      padding-top: 15px;
+    }
+
+    .Navbar {
+      display: grid;
+      grid-template-columns: auto;
+    }
+
+    .menu-list {
+      list-style: none;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      font-family: Open Sans;
+      font-size: 16px;
+      color: #444444;
+
+    }
+
+    .menu-list li a {
+      color: #444444;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    @media (max-width: 768px) {
+      .Navbar {
+        display: grid;
+        grid-template-columns: auto;
+      }
+
+      .FIRSTSECTION {
+        width: 100%;
+        padding-bottom: 0px;
+        padding-top: 15px;
+      }
+
+
+
+      .menu-list {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 10px;
+
+      }
+
+    }
+        .container {
+            width: 80%;
+            margin: 0 auto
+        }
+
+        .management {
+            width: 100%;
+            display: flex;
+            align-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap
+        }
+
+        .management .leftsection {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            padding: 80px 0
+        }
+
+        .management .leftsection p {
+            font-size: 24px;
+            text-align: justify;
+            line-height: 35px
+        }
+
+        .management .rightsection {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+
+        .management .rightsection img {
+            width: 85%;
+            height: auto
+        }
+
+        .headerbanner .bannercontent {
+            width: 100%;
+            display: flex;
+            padding-top: 70px;
+            align-content: space-around;
+            flex-direction: column;
+            flex-wrap: wrap
+        }
+
+        .headerbanner .bannercontent p {
+            padding: 20px 0;
+            font-size: 24px
+        }
+
+        .headerbanner .bannercontent ul li {
+            padding-bottom: 5px;
+            font-size: 22px;
+            margin-left: 30px
+        }
+
+        .enrollment {
+            width: 100%;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap
+        }
+
+        .enrollment h1 {
+            color: #001e60;
+            font-size: 34px;
+            font-weight: 700;
+            padding-bottom: 10px
+        }
+
+        .enrollment hr {
+            width: 280px;
+            height: 4px;
+            text-decoration: none;
+            background-color: #f2a900;
+            border: 0
+        }
+
+        .enrollment h2 {
+            color: #001e60;
+            line-height: 34px;
+            letter-spacing: 1px;
+            padding: 20px 0
+        }
+
+        .enrollment h2 span {
+            color: #f2a900
+        }
+
+        .enrollment .strean {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px
+        }
+
+        .enrollment .strean h2 span {
+            color: #f2a900;
+            padding: 20px 0
+        }
+
+        .enrollment .strean .track {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 40px
+        }
+
+        .enrollment .strean .track .leftsection {
+            width: 48%;
+            background: #fff;
+            padding: 0 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+            position: relative
+        }
+
+        .enrollment .strean .track .leftsection h2 {
+            text-align: center;
+            color: #001e60;
+            padding: 30px 0 20px
+        }
+
+        .enrollment .strean .track .leftsection p {
+            font-size: 18px;
+            line-height: 30px
+        }
+
+        .enrollment .strean .track .leftsection .think {
+            width: 100%;
+            padding-top: 30px
+        }
+
+        .enrollment .strean .track .leftsection .think img {
+            width: 30px;
+            height: auto;
+            position: relative;
+            top: 8px
+        }
+
+        .enrollment .strean .track .leftsection .think p {
+            margin-left: 50px
+        }
+
+        .enrollment .strean .track .leftsection .think strong {
+            font-size: 24px;
+            margin-left: 15px;
+            color: #001e60
+        }
+
+        .enrollment .strean .track .leftsection .get {
+            width: 100%;
+            text-align: center;
+            padding: 70px 0
+        }
+
+        .enrollment .strean .track .leftsection .get span {
+            padding: 15px;
+            border-radius: 10px;
+            background: #001e60;
+            color: #fff;
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        .enrollment .strean .track .leftsection .get span:hover {
+            background: #fff;
+            border: 1px solid #001e60
+        }
+
+        .enrollment .strean .track .leftsection .get span a {
+            color: #fff;
+            text-decoration: none
+        }
+
+        .enrollment .strean .track .leftsection .get span:hover a {
+            color: #001e60
+        }
+
+        .enrollment .strean.hide {
+            height: 0;
+            visibility: hidden;
+            overflow: hidden;
+            transition: 1.6s
+        }
+
+        .enrollment .strean.hide:target {
+            height: 1070px;
+            visibility: visible;
+            transition: 1.6s
+        }
+
+        .accordion {
+            width: 20%;
+            background: #fff
+        }
+
+        .accordion-tab>.accordion-toggle {
+            position: absolute;
+            display: none
+        }
+
+        .accordion-tab>label {
+            width: 100%;
+            display: inline-flex;
+            flex-direction: column;
+            list-style: none;
+            background: #fff;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgb(0 0 0 / 45%), 0 3px 6px rgb(0 0 0 / 36%);
+            padding: 30px 0;
+            position: relative;
+            margin-bottom: 30px;
+            color: #001e60;
+            font-size: 22px
+        }
+
+        .accordion-tab>label span {
+            font-size: 16px;
+            padding-top: 10px
+        }
+
+        .accordion-tab>label:hover {
+            background: #001e60;
+            color: #fff
+        }
+
+        .accordion-tab>.accordion-content {
+            max-height: 0;
+            transition: all .4s;
+            overflow: hidden;
+            width: 100%
+        }
+
+        .accordion-tab>label:after {
+            content: '\f078';
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            font-family: fontawesome;
+            transform: translateY(-50%) rotate(0);
+            transition: transform .3s;
+            color: #000
+        }
+
+        .accordion-tab>label:hover::after {
+            color: #fff
+        }
+
+        .accordion-tab>.accordion-toggle:checked~label:after {
+            transform: rotate(180deg)
+        }
+
+        .accordion-tab>.accordion-toggle:checked~.accordion-content {
+            max-height: 171vh
+        }
+
+        .accordion-tab>.accordion-content p {
+            margin: 15px 0;
+            padding: 0 20px;
+            font-size: 15px;
+            line-height: 1.5
+        }
+
+        .clusters {
+            width: 100%;
+            display: flex;
+            padding: 0 0 50px;
+            flex-direction: column;
+            align-items: flex-start
+        }
+
+        .clusters h1 {
+            color: #001e60;
+            font-size: 34px;
+            font-weight: 700;
+            padding-bottom: 10px
+        }
+
+        .clusters hr {
+            width: 280px;
+            height: 5px;
+            text-decoration: none;
+            background-color: #f2a900;
+            border: 0
+        }
+
+        .clusters p {
+            color: #a9a9a9;
+            letter-spacing: 1px;
+            font-size: 18px;
+            padding: 20px 0
+        }
+
+        .clusters .box {
+            width: 100%;
+            display: flex;
+            padding: 50px 0;
+            justify-content: space-evenly;
+            flex-wrap: wrap
+        }
+
+        .clusters .box .card {
+            width: 45%;
+            box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+            text-align: center;
+            padding: 50px 18px 0;
+            margin-top: 30px;
+            position: relative
+        }
+
+        .clusters .box .card h2 {
+            font-size: 28px;
+            color: #001e60
+        }
+
+        .clusters .box .card h3 {
+            padding: 40px 0 0
+        }
+
+        .clusters .box .card img {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        .clusters .box .card:last-child {
+            margin-top: 60px
+        }
+
+        .clusters .box .card:nth-last-child(2) {
+            margin-top: 60px
+        }
+
+        .flexible {
+            width: 100%;
+            display: flex;
+            flex-direction: column
+        }
+
+        .flexible h1 {
+            color: #001e60;
+            font-size: 34px;
+            font-weight: 700;
+            padding-bottom: 10px
+        }
+
+        .flexible hr {
+            width: 280px;
+            height: 5px;
+            text-decoration: none;
+            background-color: #f2a900;
+            border: 0
+        }
+
+        .flexible p {
+            color: #555;
+            letter-spacing: 1px;
+            font-size: 18px;
+            padding: 20px 0
+        }
+
+        .flexible .digitallearning {
+            width: 100%;
+            display: flex;
+            padding: 70px 0
+        }
+
+        .flexible .digitallearning .study {
+            width: 50%;
+            text-align: center;
+            padding: 0 5%
+        }
+
+        .flexible .digitallearning .study h2 {
+            color: #001e60;
+            padding: 20px 0
+        }
+
+        .flexible .digitallearning .study p {
+            color: #7d7d7d
+        }
+
+        @media screen and (max-width:1600px) {
+            .enrollment .microcard ul li {
+                margin-left: 2%
+            }
+
+            .enrollment .microcard ul li p {
+                font-size: 22px
+            }
+        }
+
+        @media screen and (max-width:1440px) {
+            .container {
+                width: 90%
+            }
+
+            .headerbanner .bannercontent p,
+            .headerbanner .bannercontent ul li {
+                font-size: 20px
+            }
+
+            .management .leftsection p {
+                font-size: 20px;
+                line-height: 28px
+            }
+        }
+
+        @media screen and (max-width:1100px) {
+            .enrollment .microcard ul li {
+                width: 48.5%
+            }
+        }
+
+        @media screen and (max-width:900px) {
+            .management .leftsection {
+                width: 100%
+            }
+
+            .management .rightsection {
+                width: 100%
+            }
+
+            .enrollment .microcard ul li p {
+                font-size: 18px
+            }
+
+            .enrollment .microcard ul li span {
+                font-size: 14px
+            }
+
+            .enrollment .strean .track,
+            .flexible .digitallearning {
+                flex-wrap: wrap
+            }
+
+            .enrollment .strean .track .leftsection {
+                width: 90%;
+                margin-bottom: 20px
+            }
+
+            .enrollment .strean.hide:target {
+                height: auto
+            }
+
+            .clusters .box .card {
+                width: 95%;
+                margin-top: 60px
+            }
+
+            .clusters .box .card:first-child {
+                margin-top: 0
+            }
+
+            .flexible .digitallearning .study {
+                width: 100%
+            }
+        }
+
+        @media screen and (max-width:567px) {
+            .headerbanner {
+                padding: 30px 0
+            }
+
+            .management .leftsection {
+                padding: 40px 0
+            }
+
+            .clusters .box .card h2,
+            .clusters h1,
+            .enrollment h1,
+            .flexible h1,
+            .headerbanner h1 {
+                font-size: 25px
+            }
+
+            .management .leftsection p {
+                font-size: 18px;
+                line-height: 25px
+            }
+
+            .headerbanner .bannercontent p,
+            .headerbanner .bannercontent ul li {
+                font-size: 18px
+            }
+
+            .enrollment hr {
+                width: 180px
+            }
+
+            .enrollment h2 {
+                font-size: 26px;
+                line-height: 35px
+            }
+
+            .enrollment .microcard ul li {
+                width: 100%;
+                margin-bottom: 20px
+            }
+
+            .enrollment .microcard ul li.box1 {
+                margin: 0
+            }
+
+            .clusters p {
+                font-size: 14px;
+                padding: 10px 0 20px
+            }
+
+            .flexible hr {
+                width: 250`px
+            }
+
+            .accordion-tab>label:after {
+                display: none
+            }
+
+            .enrollment .strean .track .leftsection .think strong {
+                font-size: 24px
+            }
+
+            .accordion-tab>.accordion-toggle:checked~.accordion-content {
+                max-height: max-content
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+
+<div>
+
+    <main>
+        <div class="container">
+            <section class="FIRSTSECTION">
+                <div class="Navbar">
+                  <div class="Navbar-item"></div>
+                  <div class="Navbar-item">
+                    <ul class="menu-list">
+                    <li><a href="https://emiratesnbd-academy.csod.com/catalog/CustomPage.aspx?id=221000402">Home</a></li>
+                    <li> &nbsp;<a href="https://emiratesnbd-academy.csod.com/catalog/CustomPage.aspx?id=221000404"> /&nbsp;&nbsp;Schools &
+                            Academies &nbsp;</a></li>/&nbsp;&nbsp;<li>Emerging Leader
+                            Program (ELP)</li>
+                      </ul>
+                      </div>
+                      </div>
+                      </section>
+            <section class="headerbanner">
+                <h1>
+                    <font size="5">EMERGING LEADER PROGRAM (ELP)</font>
+                </h1>
+                <hr>
+
+                <div class="management">
+                    <div class="leftsection">
+                        <p>
+                            <font size="3"><strong>Purpose:</strong> To develop skills required for a future-ready
+                                workplace.</font>
+                        </p>
+                        <p>
+                            <font size="3"><strong>Program Outcomes:</strong> By taking the course, learners will be
+                                able to: Build the emotional skills necessary to communicate effectively and influence
+                                innovation. Demonstrate greater resilience and agility in adapting to change. Display a
+                                growth mind-set in approaching problems and challenges at work.
+                            </font>
+                        </p>
+                        <p>
+                            <font size="3">&nbsp;</font>
+                        </p>
+                    </div>
+                    <div class="rightsection"><img src="/clientimg/emiratesnbd-academy/welcome/ELP/management-image.png"
+                            style="width: 400px; height: 328px;"></div>
+
+
+                </div>
+            </section>
+            <section class="enrollment">
+                <h1>
+                    <font size="5">ENROLLMENT</font>
+                </h1>
+                <hr>
+                <h2>
+                    <font size="3">Choose Your <span>ELP Level</span></font>
+                </h2>
+                <div class="accordion-tab"><input id="toggle1" type="checkbox" class="accordion-toggle"
+                        name="toggle"><label for="toggle1">All Associate Role Bands J-M <span>(Individual Contributors
+                            and People Managers)</span></label>
+                    <div class="accordion-content">
+                        <div class="strean">
+                            <h2>
+                                <font size="4">Choose Your <span>Stream of Learning</span></font>
+                            </h2>
+                            <div class="track">
+                                <div class="leftsection">
+                                    <h2>Digital Learning Track</h2>
+                                    <div class="study" style="text-align: center;"><img
+                                            src="https://www.bellimmersive.com/wp-content/uploads/2021/05/undraw_youtube_tutorial_2gn3-1-1.png"
+                                            style="width: 172px; height: 127px;">
+                                        <p style="text-align: left;">
+                                            <font size="3">You choose what you want to learn today. Select a minimum of
+                                                3 courses from SkillSoft and design your own curriculum based on your
+                                                current needs</font>
+                                        </p>
+                                    </div>
+                                    <div class="get"><span><a
+                                                href="https://emiratesnbd-academy.csod.com/DeepLink/ProcessRedirect.aspx?module=lodetails&amp;lo=e13b2c2a-7cd7-4352-aa14-c68df3ed11a5"
+                                                target="_blank">
+                                                <font size="3">Get Started</font>
+                                            </a></span></div>
+                                </div>
+                                <div class="leftsection">
+                                    <h2>Virtual Learning Track</h2>
+                                    <div class="study" style="text-align: center;"> <img
+                                            src="https://www.bellimmersive.com/wp-content/uploads/2021/05/undraw_Online_learning_re_qw08-1.png"
+                                            style="width: 172px; height: 125px;">
+
+                                        <p style="text-align: left;">
+                                            <font size="3">Virtual track is delivered through a Virtual Workshop, run by
+                                                learning experts, and will cover the key topics of Emotional
+                                                Intelligence, Resilience and Learning Agility&nbsp;<strong>(Max
+                                                    Duration: 3 Hours) </strong></font>
+                                        </p>
+                                    </div>
+                                    <div class="get"> <span><a
+                                                href="https://emiratesnbd-academy.csod.com/DeepLink/ProcessRedirect.aspx?module=lodetails&amp;lo=193ec2b5-d2fd-4a05-bd3c-a49984ef4a5f"
+                                                target="_blank">
+                                                <font size="3">Start Session</font>
+                                            </a></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-tab"> <input id="toggle2" type="checkbox" class="accordion-toggle" name="toggle">
+                    <label for="toggle2">All P Role Band <span>Individual Contributors</span></label>
+                    <div class="accordion-content">
+                        <div class="strean">
+                            <h2>
+                                <font size="4">Choose Your <span>Stream of Learning</span></font>
+                            </h2>
+                            <div class="track">
+                                <div class="leftsection">
+                                    <h2>Digital Learning Track</h2>
+                                    <div class="study" style="text-align: center;"><img
+                                            src="https://www.bellimmersive.com/wp-content/uploads/2021/05/undraw_youtube_tutorial_2gn3-1-1.png"
+                                            style="width: 172px; height: 127px;">
+                                        <p style="text-align: left;">
+                                            <font size="3">You choose what you want to learn today. Select a minimum of
+                                                3 courses from SkillSoft and design your own curriculum based on your
+                                                current needs.</font>
+                                        </p>
+                                    </div>
+                                    <div class="get"><span><a
+                                                href="https://emiratesnbd-academy.csod.com/DeepLink/ProcessRedirect.aspx?module=lodetails&amp;lo=e13b2c2a-7cd7-4352-aa14-c68df3ed11a5"
+                                                target="_blank">
+                                                <font size="3">Get Started</font>
+                                            </a></span></div>
+                                </div>
+                                <div class="leftsection">
+                                    <h2>Virtual Learning Track</h2>
+                                    <div class="study" style="text-align: center;"> <img
+                                            src="https://www.bellimmersive.com/wp-content/uploads/2021/05/undraw_Online_learning_re_qw08-1.png"
+                                            style="width: 172px; height: 125px;">
+
+                                        <p style="text-align: left;">
+                                            <font size="3">Virtual track is delivered through a Virtual Workshop, run by
+                                                learning experts, and will cover the key topics of Emotional
+                                                Intelligence, Resilience and Learning Agility&nbsp;<strong>(Max
+                                                    Duration: 3 Hours) </strong></font>
+                                        </p>
+                                    </div>
+                                    <div class="get"> <span><a
+                                                href="https://emiratesnbd-academy.csod.com/DeepLink/ProcessRedirect.aspx?module=lodetails&amp;lo=193ec2b5-d2fd-4a05-bd3c-a49984ef4a5f"
+                                                target="_blank">
+                                                <font size="3">Start Session</font>
+                                            </a></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="clusters">
+                <h1>
+                    <font size="5">LEADING SELF COMPETENCIES</font>
+                </h1>
+                <hr>
+                <p>
+                    <font size="3">Get a holistic development of your leadership competencies through world class
+                        digital learning and live virtual workshop chosen by experts specifically for your level.</font>
+                </p>
+                <div class="box">
+                    <div class="card"> <img src="/clientimg/emiratesnbd-academy/welcome/ELP/united.png" width="46"
+                            height="46" alt="Placeholder image">
+                        <h2>
+                            <font size="5">COLLABORATION</font>
+                        </h2>
+                        <h3>
+                            <font size="3">EMOTIONAL INTELLIGENCE</font>
+                        </h3>
+                        <p>
+                            <font size="3">Can you work closely with others, have empathy, the ability to collaborate as
+                                well as possess excellent communication skills?</font>
+                        </p>
+                        <h3>
+                            <font size="3">CUSTOMER EXCELLENCE</font>
+                        </h3>
+                        <p>
+                            <font size="3">Do you act on behalf of the person being served – anticipating, recognizing,
+                                and meeting others’ needs, sometimes even before it is articulated?</font>
+                        </p>
+                    </div>
+                    <div class="card"> <img src="/clientimg/emiratesnbd-academy/welcome/ELP/owner.png" width="46"
+                            height="46" alt="Placeholder image">
+                        <h2>
+                            <font size="5">OWNERSHIP</font>
+                        </h2>
+                        <h3>
+                            <font size="3">LEARNING AGILITY</font>
+                        </h3>
+                        <p>
+                            <font size="3">Do you have the ability and willingness to learn from experience, and then
+                                apply that learning to perform successfully in new situations, by acquiring the
+                                necessary capabilities?</font>
+                        </p>
+                        <h3>
+                            <font size="3">DATA LITERACY &amp; COMPUTATIONALTHINKING</font>
+                        </h3>
+                        <p>
+                            <font size="3">Are you familiar with and able to understand evolving digital technology and
+                                data sciences, and bring that to use in handling challenges and opportunities at the
+                                workplace?</font>
+                        </p>
+                    </div>
+                    <div class="card"> <img src="/clientimg/emiratesnbd-academy/welcome/ELP/hypothesis.png" width="46"
+                            height="46" alt="Placeholder image">
+                        <h2>
+                            <font size="5">DRIVE</font>
+                        </h2>
+                        <h3>
+                            <font size="3">RESILIENCE</font>
+                        </h3>
+                        <p>
+                            <font size="3">Do you have the capacity to recover quickly from difficulties?</font>
+                        </p>
+                        <p>
+                            <font size="3">Do you have that ability to deal with change, and demonstrate adaptability
+                                and response to the change?</font>
+                        </p>
+                        <h3>
+                            <font size="3">DECISIVENESS &amp; JUDGMENT</font>
+                        </h3>
+                        <p>
+                            <font size="3">Are you able to resolve problems and interpret the subjective side of data?
+                            </font>
+                        </p>
+                    </div>
+                    <div class="card"> <img src="/clientimg/emiratesnbd-academy/welcome/ELP/enterprise (1).png"
+                            width="46" height="46" alt="Placeholder image">
+                        <h2>
+                            <font size="5">ENTERPRISING</font>
+                        </h2>
+                        <h3>
+                            <font size="3">COGNITIVE ABILITY</font>
+                        </h3>
+                        <p>
+                            <font size="3">Can you adapt to change, and conceptualize complex multiple ideas at the same
+                                time?</font>
+                        </p>
+                        <h3>
+                            <font size="3">CREATIVITY</font>
+                        </h3>
+                        <p>
+                            <font size="3">Can you person think out of the box, using imagination to create?</font>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="flexible">
+                <h1>
+                    <font size="5">FLEXIBLE LEARNING</font>
+                </h1>
+                <hr>
+                <p>
+                    <font size="3">Choose a learning track based on your preferred mode of learning.</font>
+                </p>
+                <div class="digitallearning">
+                    <div class="study"> <img
+                            src="https://www.bellimmersive.com/wp-content/uploads/2021/05/undraw_youtube_tutorial_2gn3-1-1.png"
+                            style="width: 172px; height: 127px;">
+                        <h2>
+                            <font size="3">Digital Learning Track</font>
+                        </h2>
+                        <p>
+                            <font size="3">You choose what you want to learn today. Select a minimum of 3 courses from
+                                SkillSoft and design your own curriculum based on your current needs.</font>
+                        </p>
+                    </div>
+                    <div class="study"> <img
+                            src="https://www.bellimmersive.com/wp-content/uploads/2021/05/undraw_Online_learning_re_qw08-1.png"
+                            style="width: 172px; height: 125px;">
+                        <h2>
+                            <font size="3">Virtual Classroom Track</font>
+                        </h2>
+                        <p>
+                            <font size="3">Virtual track is delivered through a Virtual Workshop, run by learning
+                                experts, and will cover the key topics of Emotional Intelligence, Resilience and
+                                Learning Agility&nbsp;<strong>(Max Duration: 3 Hours) </strong></font>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</div>
